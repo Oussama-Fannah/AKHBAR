@@ -1,0 +1,176 @@
+.navbar {
+	padding-top: .3em;
+	padding-bottom: .3em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.logo {
+	width: 18%;
+	float: left;
+	margin-top: 1.5px;
+}
+
+.tido{
+	width: 82%;
+	float: right;
+}
+.tido .time {
+	text-align: center;
+	width: 75%;
+	font-size: medium;
+	font-family: Arial;
+	font-weight: bold;
+	margin-top: 11px;
+	margin-bottom: -13px;
+}
+.tido button{
+	border: black solid 2px;
+	border-radius: 10px;
+	height: 40px;
+	width: 25%;
+	float: right;
+	margin-top: -15px;
+	margin-right: 20px;
+	transition: 0.5s ease-in-out;
+	letter-spacing: normal;
+}
+.tido a:hover button{
+	border: black solid 2px;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	height: 40px;
+	width: 25%;
+	float: right;
+	margin-top: -15px;
+	margin-right: 20px;
+	letter-spacing: 2px;
+}
+
+
+.category{
+	margin-top: 5px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.category a{
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-size: medium;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.5ms;
+	margin-left: 42px;
+	margin-right: 42px;
+}
+
+.category .active{
+	text-decoration: underline;
+	letter-spacing: 4px;
+}
+.category .inactive{
+	text-decoration: none;
+	transition: 0.5s ease-in-out;
+}
+.category .inactive:hover{
+	letter-spacing: 4px;
+	color: mediumblue;
+}
+
+
+
+/* j'ai utiliser media juste pour lnavbar , pour les autre j'ai utiliser breakpoint de bootstrap5 ;c un peu simple */
+
+@media screen and (max-width: 767px) {
+
+	.category a{
+		margin-left: 7px;
+		margin-right: 7px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.category a{
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+}
+
+main{
+    margin-top: 120px;
+    
+}
+.card-img-overlay {
+    background-color: rgba(255, 235, 205, 0.44);
+    color: black;
+    font-family: Arial;
+	font-weight: bold;
+}
+footer{
+	padding-top: .3em;
+	padding-bottom: .3em;
+	border: 1px solid #a2a2a2;
+	background-color: #525050;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.social {
+	display: flex;
+    justify-content: center;
+    margin-left: -3%;
+}
+
+.social li {
+	list-style: none;
+	font-size: 14px;
+}
+
+.social li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	transition: 0.5s ease-in-out;
+	letter-spacing: normal;
+}
+.social li a:hover{
+	color: rgb(0, 0, 0);
+}
+
+.body_sign_up{
+	background-color: #525050;
+}
+.sign_card{
+	justify-content: center;
+	padding-top: .3em;
+	padding-bottom: .3em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.sign_card .social li a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	transition: 0.5s ease-in-out;
+	letter-spacing: normal;
+}
+.sign_card .social li a:hover{
+	color: rgb(181, 38, 38);
+}
